@@ -7,7 +7,7 @@
         <input type="text" id="name" name="name" required v-model="name" />
         <label for="project">et je recherche </label>
         <select name="project" id="project required" v-model="project">
-          <option value="discuss">Discutter</option>
+          <option value="discuss">Discuter</option>
           <option value="quote">Devis</option>
           <option value="project">Projet</option>
         </select>
