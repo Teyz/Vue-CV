@@ -46,7 +46,7 @@ export default {
   align-items: center;
 
   img {
-    max-width: 400px;
+    max-width: 300px;
   }
 
   .textSection,
@@ -57,6 +57,10 @@ export default {
   @media screen and (min-width: 1024px) {
     padding-bottom: 48px;
     flex-direction: row;
+
+    img {
+      max-width: 400px;
+    }
 
     &.reversImage {
       flex-direction: row-reverse;

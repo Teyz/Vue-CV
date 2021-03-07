@@ -4,9 +4,6 @@
       <MainTitle />
       <Stickers />
     </Wrapper>
-    <Wrapper title="About Me" size="small" id="aboutme">
-      <About />
-    </Wrapper>
     <Wrapper title="Portfolio" size="small" id="portfolio">
       <PortfolioItem
         animation
@@ -27,6 +24,9 @@
     <Wrapper title="Experience" size="medium" id="experiences">
       <ExperiencesList />
     </Wrapper>
+    <Wrapper title="About Me" size="small" id="aboutme">
+      <HiddenAbout />
+    </Wrapper>
     <Wrapper title="Contact" size="regular" id="contact">
       <Contact />
     </Wrapper>
@@ -39,6 +39,7 @@ import Stickers from "./Index/Stickers";
 import PortfolioItem from "./Index/PortfolioItem";
 import ExperiencesList from "./Index/ExperiencesList";
 import About from "./Index/About";
+import HiddenAbout from "./Index/HiddenAbout";
 import Contact from "./Index/Contact";
 import { onMounted } from "vue";
 export default {
@@ -49,6 +50,7 @@ export default {
     PortfolioItem,
     ExperiencesList,
     About,
+    HiddenAbout,
     Contact,
   },
   setup() {

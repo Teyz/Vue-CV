@@ -38,12 +38,12 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .textSectionRoot {
-  padding: 24px 24px 24px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   @media screen and (min-width: 1024px) {
+    padding: 24px 24px 24px 0px;
     h3 {
       text-align: left;
     }
