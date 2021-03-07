@@ -2,13 +2,13 @@
   <section class="counterRoot">
     <div class="inner">
       <div class="counterHeader">
-        <h3>Counter : {{ counter }}</h3>
+        <h3>Compteur : {{ counter }}</h3>
       </div>
       <div class="counterCommands">
         <CommandsList />
       </div>
     </div>
-    <router-link to="/">Back To Portfolio</router-link>
+    <router-link to="/">Retour au Portfolio</router-link>
   </section>
 </template>
 

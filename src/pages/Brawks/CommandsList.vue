@@ -1,9 +1,9 @@
 <template>
   <section class="commandsListRoot">
     <div class="inner">
-      <Commands name="Add" command="put" />
-      <Commands name="Delete" command="update" />
-      <Commands name="Reset" command="delete" />
+      <Commands name="Ajouter" command="put" />
+      <Commands name="Supprimer" command="update" />
+      <Commands name="Reinitialiser" command="delete" />
     </div>
   </section>
 </template>

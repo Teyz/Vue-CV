@@ -1,29 +1,29 @@
 <template>
   <div class="contactRoot">
-    <h2 data-aos="zoom-out-down">Schedule an <span>appointment</span></h2>
+    <h2 data-aos="zoom-out-down">Fixer un <span>rendez-vous</span></h2>
     <form @submit.prevent="sendEmail">
       <div class="formRow" data-aos="fade-right" data-aos-delay="100">
-        <label for="name">Hey my name is </label>
+        <label for="name">Hey mon prenom est </label>
         <input type="text" id="name" name="name" required v-model="name" />
-        <label for="project">and I'm looking for</label>
+        <label for="project">et je recherche </label>
         <select name="project" id="project required" v-model="project">
-          <option value="discuss">Discuss</option>
-          <option value="quote">Quotation</option>
-          <option value="project">Project</option>
+          <option value="discuss">Discutter</option>
+          <option value="quote">Devis</option>
+          <option value="project">Projet</option>
         </select>
       </div>
       <div class="formRow" data-aos="fade-left" data-aos-delay="200">
-        <label for="email">Get in touch with me at</label>
+        <label for="email">Rester en contact avec moi </label>
         <input type="email" id="email" name="email" required v-model="email" />
       </div>
       <div class="formRow" data-aos="fade-right" data-aos-delay="300">
         <input type="checkbox" id="aggrement" name="aggrement" required />
         <label for="aggrement" class="checkbox-label"
-          >I accept all terms and conditions</label
+          >J'accepte les termes et conditions</label
         >
       </div>
       <div class="formRow" data-aos="fade-left" data-aos-delay="400">
-        <button type="submit">Send enquiry</button>
+        <button type="submit">Envoyer</button>
       </div>
     </form>
   </div>

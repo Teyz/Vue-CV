@@ -1,10 +1,10 @@
 <template>
   <section class="brawksRoot">
     <div class="inner">
-      <Breadcrumbs name="Brawks" project="Project 1" url="" />
+      <Breadcrumbs name="Brawks" project="Projet 1" url="/" />
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore.
+        Compteur en temps reel realise pour l'emission LaGrosseGame by Cdiscount
+        pour le streamer Brawks.
       </p>
       <Counter />
     </div>
