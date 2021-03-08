@@ -3,7 +3,7 @@
     <a class="nav-item active" href="/#home">Home</a>
     <a class="nav-item" href="/#portfolio">Portfolio</a>
     <a class="nav-item" href="/#experiences">Experiences</a>
-    <a class="nav-item" href="/#aboutme">About Me</a>
+    <!-- <a class="nav-item" href="/#aboutme">About Me</a> -->
     <a class="nav-item" href="/#contact">Contact</a>
     <svg viewBox="0 0 100 80" width="40" height="40" v-on:click="showMenu">
       <rect width="100" height="10" rx="4" fill="white"></rect>

@@ -24,9 +24,9 @@
     <Wrapper title="Experience" size="medium" id="experiences">
       <ExperiencesList />
     </Wrapper>
-    <Wrapper title="About Me" size="small" id="aboutme">
+    <!-- <Wrapper title="About Me" size="small" id="aboutme">
       <HiddenAbout />
-    </Wrapper>
+    </Wrapper> -->
     <Wrapper title="Contact" size="regular" id="contact">
       <Contact />
     </Wrapper>
