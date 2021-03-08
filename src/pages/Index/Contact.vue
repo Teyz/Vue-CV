@@ -12,17 +12,33 @@
           <option value="project">Projet</option>
         </select>
       </div>
-      <div class="formRow" data-aos="fade-left" data-aos-delay="200">
+      <div
+        class="formRow"
+        data-aos="fade-left"
+        data-aos-delay="200"
+        style="flex-direction: column; display: flex;"
+      >
+        <label for="message">Je voulais te dire que </label>
+        <textarea
+          id="message"
+          name="message"
+          rows="1"
+          cols="33"
+          v-model="message"
+        >
+        </textarea>
+      </div>
+      <div class="formRow" data-aos="fade-left" data-aos-delay="300">
         <label for="email">Rester en contact avec moi </label>
         <input type="email" id="email" name="email" required v-model="email" />
       </div>
-      <div class="formRow" data-aos="fade-right" data-aos-delay="300">
+      <div class="formRow" data-aos="fade-right" data-aos-delay="400">
         <input type="checkbox" id="aggrement" name="aggrement" required />
         <label for="aggrement" class="checkbox-label"
           >J'accepte les termes et conditions</label
         >
       </div>
-      <div class="formRow" data-aos="fade-left" data-aos-delay="400">
+      <div class="formRow" data-aos="fade-left" data-aos-delay="500">
         <button type="submit">Envoyer</button>
       </div>
     </form>
@@ -42,6 +58,7 @@ export default {
     const name = ref("");
     const project = ref("");
     const email = ref("");
+    const message = ref("");
     const sendEmail = (e) => {
       emailjs
         .sendForm(
@@ -53,6 +70,7 @@ export default {
             name: name.value,
             email: email.value,
             project: project.value,
+            message: message.value,
           }
         )
         .then(
@@ -74,6 +92,7 @@ export default {
       name.value = "";
       project.value = "";
       email.value = "";
+      message.value = "";
     };
     onMounted(() => {
       AOS.init();
@@ -83,6 +102,7 @@ export default {
       name,
       project,
       email,
+      message,
     };
   },
 };

@@ -24,9 +24,9 @@
             </span>
           </h2>
           <p class="description-experience">
-            <span>Amelioration du design</span>
+            <span>Amélioration du design</span>
             <span>Refactoring code (AngularJs / Java)</span>
-            <span>Utilisation et developpement API REST / JSON</span>
+            <span>Utilisation et developpement d'API REST / JSON</span>
           </p>
         </div>
         <div class="xp-description">
@@ -37,7 +37,7 @@
             </span>
           </h2>
           <p class="description-experience">
-            <span>Integration: Bootstrap, HTML / CSS </span>
+            <span>Intégration: Bootstrap, HTML / CSS </span>
             <span>Wordpress: Premium Theme</span>
           </p>
         </div>
@@ -64,7 +64,7 @@
           </h2>
           <p class="description-experience">
             <span>Création de site (Wordpress / Symfony)</span>
-            <span>Bonne pratique accessibilite</span>
+            <span>Bonne pratique accessibilité</span>
           </p>
         </div>
       </div>

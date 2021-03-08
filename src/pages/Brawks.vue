@@ -3,7 +3,7 @@
     <div class="inner">
       <Breadcrumbs name="Brawks" project="Projet 1" url="/" />
       <p>
-        Compteur en temps reel realise pour l'emission LaGrosseGame by Cdiscount
+        Compteur en temps réel réalisé pour l'émission LaGrosseGame by Cdiscount
         pour le streamer Brawks.
       </p>
       <Counter />

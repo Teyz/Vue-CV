@@ -3,7 +3,7 @@
     <div class="inner">
       <Commands name="Ajouter" command="put" />
       <Commands name="Supprimer" command="update" />
-      <Commands name="Reinitialiser" command="delete" />
+      <Commands name="Réinitialiser" command="delete" />
     </div>
   </section>
 </template>

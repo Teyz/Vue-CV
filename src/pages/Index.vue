@@ -6,19 +6,19 @@
     </Wrapper>
     <Wrapper title="Portfolio" size="small" id="portfolio">
       <PortfolioItem
-        animation
-        title="creativete"
-        image="/img/portfolio/creativete.png"
-        text="Creation d'un site wordpress sur mesure pour Creativ ete"
-        url="https://creativete.rivp.fr/"
+        title="brawks"
+        image="/img/portfolio/brawks.png"
+        text="Création d'API et Bot pour le streamer Brawks"
+        url="brawks"
       />
     </Wrapper>
     <Wrapper title="Portfolio" size="small" id="portfolio">
       <PortfolioItem
-        title="brawks"
-        image="/img/portfolio/brawks.png"
-        text="Creation d'api et Bot pour le streamer Brawks"
-        url="brawks"
+        animation
+        title="creativete"
+        image="/img/portfolio/creativete.png"
+        text="Création d'un site wordpress sur mesure pour Creativ été"
+        url="https://creativete.rivp.fr/"
       />
     </Wrapper>
     <Wrapper title="Experience" size="medium" id="experiences">

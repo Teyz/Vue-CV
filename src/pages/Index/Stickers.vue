@@ -3,9 +3,11 @@
     <div class="stickersMain">
       <div class="sticker">
         <img src="/img/Index/sticker.svg" alt="Sticker Github" />
-        <span class="title-company">
-          23 Github projects
-        </span>
+        <a href="https://github.com/Teyz" target="_blank">
+          <span class="title-company">
+            29 Github projects
+          </span>
+        </a>
       </div>
       <div class="purpleSticker">
         <img src="/img/Index/sticker-purple.svg" alt="Sticker Hackathon" />
