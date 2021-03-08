@@ -30,6 +30,9 @@ textarea {
 textarea {
   margin-top: 16px;
   max-width: none;
+  @media screen and (max-width: 375px) {
+    max-width: 140px;
+  }
 }
 
 input:-webkit-autofill,
