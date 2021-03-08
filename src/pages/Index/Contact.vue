@@ -3,13 +3,13 @@
     <h2 data-aos="zoom-out-down">Fixer un <span>rendez-vous</span></h2>
     <form @submit.prevent="sendEmail">
       <div class="formRow" data-aos="fade-right" data-aos-delay="100">
-        <label for="name">Hey mon prenom est </label>
+        <label for="name">Hello Bastien, je suis </label>
         <input type="text" id="name" name="name" required v-model="name" />
-        <label for="project">et je recherche </label>
+        <label for="project"> et j'aimerais </label>
         <select name="project" id="project required" v-model="project">
-          <option value="discuss">Discuter</option>
-          <option value="quote">Devis</option>
-          <option value="project">Projet</option>
+          <option value="discuss">Discuter avec toi</option>
+          <option value="quote">Un devis</option>
+          <option value="project">Te parler d'un projet</option>
         </select>
       </div>
       <div
@@ -18,7 +18,7 @@
         data-aos-delay="200"
         style="flex-direction: column; display: flex;"
       >
-        <label for="message">Je voulais te dire que </label>
+        <label for="message">Pour te donner plus de détails : </label>
         <textarea
           id="message"
           name="message"
@@ -35,7 +35,7 @@
       <div class="formRow" data-aos="fade-right" data-aos-delay="400">
         <input type="checkbox" id="aggrement" name="aggrement" required />
         <label for="aggrement" class="checkbox-label"
-          >J'accepte les termes et conditions</label
+          >Prouves moi que tu n'es pas un robot en cochant cette case</label
         >
       </div>
       <div class="formRow" data-aos="fade-left" data-aos-delay="500">
@@ -114,8 +114,8 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  max-width: 80vw;
+  align-items: flex-start;
+  max-width: 100vw;
   margin-top: 48px;
 
   @media screen and (min-width: 1024px) {
