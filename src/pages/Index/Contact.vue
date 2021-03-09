@@ -169,6 +169,44 @@ export default {
   max-width: 100vw;
   margin-top: 48px;
 
+  .contactHeaderRoot {
+    position: relative;
+    padding: 24px;
+
+    .drawText {
+      position: absolute;
+      right: 0;
+      top: -15%;
+      transform: rotate(5deg);
+      color: #f2c94c;
+      letter-spacing: 0.04em;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 30px;
+      font-family: blambot-fx-pro, sans-serif;
+    }
+    svg {
+      width: 100%;
+      display: block !important;
+      position: absolute;
+      top: -45px;
+      left: -15px;
+    }
+
+    // [data-aos="example-anim1"] {
+    //   stroke-dasharray: 1991;
+    //   stroke-dashoffset: 1991;
+    //   animation: dash 1s linear forwards;
+    //   &.aos-animate {
+    //     @keyframes dash {
+    //       to {
+    //         stroke-dashoffset: 0;
+    //       }
+    //     }
+    //   }
+    // }
+  }
+
   @media screen and (min-width: 1024px) {
     margin-top: 0;
 
