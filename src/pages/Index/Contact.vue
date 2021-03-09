@@ -1,7 +1,10 @@
 <template>
   <div class="contactRoot">
     <div class="contactHeaderRoot" data-aos="fill" data-aos-delay="100">
-      <h2>Schedule <br />an <span>appointment</span></h2>
+      <h2>Fixer <br />un <span>rendez-vous</span></h2>
+      <span class="drawText" data-aos="fade-right" data-aos-delay="200"
+        >On s'appelle ? :)</span
+      >
       <svg
         width="768"
         height="203"
@@ -21,7 +24,7 @@
       </svg>
     </div>
     <form @submit.prevent="sendEmail">
-      <div class="formRow" data-aos="fade-right" data-aos-delay="200">
+      <div class="formRow" data-aos="fade-right" data-aos-delay="300">
         <label for="name">Hello Bastien, je suis </label>
         <input
           type="text"
@@ -41,7 +44,7 @@
       <div
         class="formRow"
         data-aos="fade-left"
-        data-aos-delay="300"
+        data-aos-delay="400"
         style="flex-direction: column; display: flex;"
       >
         <label for="message">Pour te donner plus de détails : </label>
@@ -55,7 +58,7 @@
         >
         </textarea>
       </div>
-      <div class="formRow" data-aos="fade-left" data-aos-delay="400">
+      <div class="formRow" data-aos="fade-left" data-aos-delay="500">
         <label for="email"
           >Tu peux me recontacter sur mon adresse mail :
         </label>
@@ -68,13 +71,13 @@
           style="max-width: 240px;"
         />
       </div>
-      <div class="formRow" data-aos="fade-right" data-aos-delay="500">
+      <div class="formRow" data-aos="fade-right" data-aos-delay="600">
         <input type="checkbox" id="aggrement" name="aggrement" required />
         <label for="aggrement" class="checkbox-label"
           >Bien sûr, je ne suis pas un robot</label
         >
       </div>
-      <div class="formRow" data-aos="fade-left" data-aos-delay="600">
+      <div class="formRow" data-aos="fade-left" data-aos-delay="700">
         <button type="submit">Envoyer</button>
       </div>
     </form>
@@ -171,6 +174,19 @@ export default {
 
     .contactHeaderRoot {
       position: relative;
+
+      .drawText {
+        position: absolute;
+        right: 0;
+        top: -15%;
+        transform: rotate(5deg);
+        color: #f2c94c;
+        letter-spacing: 0.04em;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+        font-family: blambot-fx-pro, sans-serif;
+      }
       svg {
         display: block !important;
         position: absolute;
