@@ -5,7 +5,13 @@
     <a class="nav-item" href="/#experiences">Experiences</a>
     <!-- <a class="nav-item" href="/#aboutme">About Me</a> -->
     <a class="nav-item" href="/#contact">Contact</a>
-    <svg viewBox="0 0 100 80" width="40" height="40" v-on:click="showMenu">
+    <svg
+      viewBox="0 0 100 80"
+      width="40"
+      height="40"
+      v-on:click="showMenu"
+      class="burgerSvg"
+    >
       <rect width="100" height="10" rx="4" fill="white"></rect>
       <rect y="30" width="100" height="10" rx="4" fill="white"></rect>
       <rect y="60" width="100" height="10" rx="4" fill="white"></rect>

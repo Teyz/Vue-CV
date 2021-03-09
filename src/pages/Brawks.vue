@@ -4,7 +4,7 @@
       <Breadcrumbs name="Brawks" project="Projet 1" url="/" />
       <p>
         Compteur en temps réel réalisé pour l'émission LaGrosseGame by Cdiscount
-        pour le streamer Brawks.
+        pour le streamer Brawks. Teste-le juste ici.
       </p>
       <Counter />
     </div>
@@ -33,6 +33,15 @@ export default {
   @media screen and (min-width: 1024px) {
     flex-direction: row;
     padding-top: 0px;
+  }
+
+  p {
+    @media screen and (min-width: 1024px) {
+      max-width: 620px;
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+    }
   }
 }
 </style>

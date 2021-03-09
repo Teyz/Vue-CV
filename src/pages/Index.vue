@@ -8,7 +8,7 @@
       <PortfolioItem
         title="brawks"
         image="/img/portfolio/brawks.png"
-        text="Création d'API et Bot pour le streamer Brawks"
+        text="Création d'une API ainsi que d'un Bot pour le streamer Brawks"
         url="brawks"
       />
     </Wrapper>

@@ -16,7 +16,6 @@ textarea {
   border-bottom: 1px solid white;
   color: white;
   font-size: 22px !important;
-  max-width: 140px;
   font-family: "Favorit Regular";
   &:focus {
     font-size: 22px !important;
@@ -24,6 +23,10 @@ textarea {
     border-bottom: 1px solid $purple;
     outline: none;
   }
+}
+
+input {
+  max-width: 140px;
 }
 
 textarea {
