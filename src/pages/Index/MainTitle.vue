@@ -5,7 +5,7 @@
       <span>
         FULLSTACK
       </span>
-      DEVELOPPER
+      DEVELOPER
     </h1>
     <div class="ctaScroll">
       <span>Scroll</span>
