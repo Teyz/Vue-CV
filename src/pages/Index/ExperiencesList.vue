@@ -266,7 +266,7 @@ export default {
 .input.active span::after {
   content: attr(data-year);
   top: 50%;
-  transform: rotate(-90deg) translate(25%, -100%);
+  transform: rotate(-90deg) translate(20%, -130%);
   @media screen and (max-width: 850px) {
     top: 50%;
     left: 50%;
